@@ -23,7 +23,8 @@ public class Teste1 {
         
         Cliente1 cliente2 = new Cliente1("Lucas",carreta2,lista,c2);
         
-        //viagem2.calcularViagem();
+        for(int i=0; i < lista.size(); i++)
+            lista.get(i).calcularViagem();
         cliente2.visualizarViagem();
         
     }
